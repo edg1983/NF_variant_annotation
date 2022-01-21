@@ -1,0 +1,226 @@
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/PanelApp/GRCh38_PanelApp.sorted.bed.gz"
+columns = [3]
+ops = ["flag"]
+names = ["PanelApp"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/LowComplexity/GRCh38_LCR.bed.gz"
+columns = [3]
+ops = ["flag"]
+names = ["LowComplexity"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/LowMappability/GRCh38_LowMappability.bed.gz"
+columns = [3]
+ops = ["flag"]
+names = ["LowMappability"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/TopVariableGenes/GRCh38_Top_one_perc_variable_genes_IVA.bed.gz"
+columns = [3]
+ops = ["flag"]
+names = ["TopVariableGenes"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/SegDup/GRCh38_SegDup.bed.gz"
+columns = [3]
+ops = ["flag"]
+names = ["SegDup"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/RegulatoryRegions/GRCh38_RefSeq_FunctionalElements.bed.gz"
+columns = [3]
+ops = ["flag"]
+names = ["RefSeqReg"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/RegulatoryRegions/GRCh38_TFBS_merged.bed.gz"
+columns = [3]
+ops = ["flag"]
+names = ["TFBS"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/RegulatoryRegions/GRCh38_DNase_merged.bed.gz"
+columns = [3]
+ops = ["flag"]
+names = ["DNase"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/RegulatoryRegions/GRCh38_UCNE_merged.bed.gz"
+columns = [3]
+ops = ["flag"]
+names = ["UCNE"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/gnomAD/GRCh38_gnomad.exomes.r2.1.1.sites.vcf.gz"
+fields = ["AF", "AF_nfe"]
+ops = ["max", "max"]
+names = ["global_gnomAD_exome_AF", "pop_gnomAD_exome_AF_nfe"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/gnomAD/GRCh38_gnomad.genomes.r3.sites.vcf.gz"
+fields = ["AF", "AF_nfe"]
+ops = ["max", "max"]
+names = ["global_gnomAD_AF", "pop_gnomAD_AF_nfe"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/1000G/GRCh38_1000G.vcf.gz"
+fields = ["AF", "EUR_AF"]
+ops = ["max", "max"]
+names = ["global_A1000G_AF", "pop_A1000G_EUR_AF"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/UK10K/GRCh38_UK10K.vcf.gz"
+fields = ["AF", "AF_EUR"]
+ops = ["max", "max"]
+names = ["global_UK10K_AF", "pop_UK10K_AF_EUR"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/RareDisease_PaperFreeze/cohort_VCF/HICF2_PaperFreeze.processed.vcf.gz"
+fields = ["AF"]
+ops = ["max"]
+names = ["global_HICF2_AF"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/CADD/GRCh38_CADD.tsv.gz"
+columns = [5, 6]
+names = ["CADD_RawScore", "CADD_PhredScore"]
+ops = ["max", "max"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/DANN/GRCh38_DANN.tsv.gz"
+columns = [5]
+names = ["DANN_score"]
+ops = ["max"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/REVEL/GRCh38_REVEL.tsv.gz"
+columns = [5]
+names = ["REVEL_score"]
+ops = ["max"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/FATHMM/GRCh38_FATHMM-MKL_NC.tsv.gz"
+columns = [5]
+names = ["FATHMM_MKLNC_score"]
+ops = ["max"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/ReMM/GRCh38_ReMM.tsv.gz"
+columns = [3]
+names = ["ReMM_score"]
+ops = ["max"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/LinSight/GRCh38_LinSight.bed.gz"
+columns = [4]
+ops = ["max"]
+names = ["LinSight"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/ncER/GRCh38_ncER_perc.bed.gz"
+columns = [4]
+ops = ["max"]
+names = ["ncER"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/ConstrainedCodingRegions/GRCh38_CCRS.final.bed.gz"
+columns = [4]
+ops = ["self"]
+names = ["CCR_pct"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/RegulatoryRegions/GRCh38_LoF_tolerance.tsv.gz"
+columns = [5]
+names = ["LoF_tolerance"]
+ops = ["min"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/spliceAI/GRCh38_spliceAI.SNP.vcf.gz"
+fields = ["SpliceAI_max", "SpliceAI_DP"]
+ops = ["max", "self"]
+names = ["SpliceAI_SNP_SpliceAI_max", "SpliceAI_SNP_SpliceAI_DP"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/spliceAI/GRCh38_spliceAI.INDEL.vcf.gz"
+fields = ["SpliceAI_max", "SpliceAI_DP"]
+ops = ["max", "self"]
+names = ["SpliceAI_INDEL_SpliceAI_max", "SpliceAI_INDEL_SpliceAI_DP"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/dbscSNV/GRCh38_dbscSNV1.1.vcf.gz"
+fields = ["ada", "rf"]
+ops = ["max", "max"]
+names = ["dbscSNV_ada", "dbscSNV_rf"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/dbNSFP/GRCh38_dbNSFP4.0a.vcf.gz"
+fields = ["PP2_HDIV", "PP2_HVAR"]
+ops = ["max", "max"]
+names = ["dbNSFP_PP2_HDIV", "dbNSFP_PP2_HVAR"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/MCAP/GRCh38_MCAP_v1.4.tsv.gz"
+columns = [5]
+names = ["MCAP_score"]
+ops = ["max"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/Conservation/GRCh38_PhyloP100way.bed.gz"
+columns = [4]
+ops = ["max"]
+names = ["PhyloP100"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/ExPECTO/GRCh38_ExPECTO_max_value.vcfanno.tsv.gz"
+columns = [5]
+names = ["ExPECTO_MAX_VALUE"]
+ops = ["max"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/NCBoost/GRCh38_NCBoost.tsv.gz"
+columns = [5]
+names = ["NCBoost_score"]
+ops = ["max"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/RegulatoryRegions/GRCh38_regions.annotated.tsv.gz"
+columns = [4, 9]
+names = ["Reg_id", "Reg_constraint"]
+ops = ["self", "max"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/HGMD/GRCh38_HGMD.PRO_2014.4.vcf.gz"
+fields=["ID"]
+names=["HGMD_ID"]
+ops=["self"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/ClinVar/GRCh38_ClinVar.vcf.gz"
+fields=["ID"]
+names=["ClinVar_ID"]
+ops=["self"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/COSMIC/GRCh38_CosmicCodingMuts.vcf.gz"
+fields=["ID"]
+names=["COSMIC_Coding_ID"]
+ops=["self"]
+
+[[annotation]]
+file="/well/gel/HICF2/HICF2_hg38_remap/annotations/latest/COSMIC/GRCh38_CosmicNonCodingVariants.vcf.gz"
+fields=["ID"]
+names=["COSMIC_NonCoding_ID"]
+ops=["self"]
+
+[[postannotation]]
+name="ID"
+fields=["HGMD_ID","ClinVar_ID","COSMIC_Coding_ID","COSMIC_NonCoding_ID"]
+op="lua:setid({'HGMD','CV','',''}, HGMD_ID,ClinVar_ID,COSMIC_Coding_ID,COSMIC_NonCoding_ID)"
+type="String"
+
+[[postannotation]]
+fields=["HGMD_ID","ClinVar_ID","COSMIC_Coding_ID","COSMIC_NonCoding_ID"]
+op="delete"
+
