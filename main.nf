@@ -43,7 +43,7 @@ log.info """\
     output              : ${params.out}
     toml file           : ${params.anno_toml}
     lua file            : ${params.lua}
-    anno resource dir   : { params.anno_resourcedir ? ${params.anno_resourcedir} : "none" }
+    anno resource dir   : ${ params.anno_resourcedir ? ${params.anno_resourcedir} : "none" }
     sv config           : ${params.sv_config}
     snpEff data folder  : ${params.snpEff_data}
     ==============================================
